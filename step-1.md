@@ -12,7 +12,7 @@ Clone the 'mq-container' GitHub project by running the following comand:
 git clone https://github.com/ibm-messaging/mq-container.git
 ```
 
-### 2. Build the Docker image for IBM® MQ 9.0.5.
+### 2. Build the Docker image for IBM® MQ
 
 In this step, we are creating the Docker image, by running the following commands:
 
