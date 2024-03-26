@@ -98,7 +98,7 @@ Resources:
       - IpProtocol: tcp
         FromPort: 8162
         ToPort: 8162
-        SourceSecurityGroupId: !Ref IBMMQSecurityGroup
+        DestinationSecurityGroupId: !Ref IBMMQSecurityGroup
 
   IBMMQSecurityGroup:
     Type: AWS::EC2::SecurityGroup
