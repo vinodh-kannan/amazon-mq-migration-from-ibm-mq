@@ -89,7 +89,7 @@ Now, we have to provide a few configuration parameter to Maven. This is done, by
 Now, in the root directory of this project, run the following command to do all the 4 steps we mentioned before:  
 
 ``` bash
-mvn clean deploy
+sudo mvn clean deploy
 ```
 
 After a successful run, you should see a console output like this:
